@@ -14,6 +14,8 @@ Bu kapsamda iki farklı makine öğrenmesi problemi ele alınmıştır.
 * Şikayetçi
 * Sessiz Kayıp
 
+
+
 ### 2 Segmentli Churn Tahmini
 
 * Sadık
@@ -86,6 +88,36 @@ Memnuniyetsizliğini açık şekilde ifade eden müşteriler.
 ### Sessiz Kayıp
 
 Yıldız puanı yüksek görünmesine rağmen yorumlarında memnuniyetsizlik sinyalleri bulunan ve gelecekte bankayı terk etme riski taşıyan müşteriler.
+
+
+<img width="987" height="790" alt="image" src="https://github.com/user-attachments/assets/bf768455-c953-4ac0-aa85-ba90b72a9085" />
+
+#### Yorum
+Banka E en yüksek Sadık müşteri oranına sahiptir.
+Banka A ve Banka B'de Şikayetçi müşteri oranı diğer bankalara göre daha yüksektir.
+Sessiz Kayıp segmenti tüm bankalarda görülmekle birlikte özellikle Banka D ve Banka E'de daha belirgindir.
+Bu dağılım, müşteri memnuniyetinin bankalar arasında farklılaştığını göstermektedir.
+
+
+# Kriz Analizi
+Banka A Kriz Süreci Analizi
+
+<img width="1784" height="495" alt="image" src="https://github.com/user-attachments/assets/7fd9acf7-078d-4c7c-8a19-0a90b5824512" />
+
+#### Yorum
+Mart ayından itibaren ortalama puanlarda belirgin bir düşüş gözlenirken, olumsuz yorum oranı ve churn niyeti skoru hızlı şekilde artmıştır. Bu durum müşteri memnuniyetindeki bozulmanın yalnızca yıldız puanlarıyla değil, yorum içerikleriyle de erken tespit edilebildiğini göstermektedir.
+
+# Kök Neden Analizi
+Bankalara Göre En Kritik Problemler
+
+<img width="2048" height="1305" alt="image" src="https://github.com/user-attachments/assets/59a47b7b-34c7-41b3-91ee-3b1f1c998311" />
+
+
+
+
+#### Yorum
+Risk skorları incelendiğinde her bankanın farklı operasyonel problemlere sahip olduğu görülmektedir. Para transfer ücretleri, giriş sorunları, uygulama güncellemeleri, ekran görüntüsü alma problemi ve performans sorunları müşteri memnuniyetini en fazla etkileyen konular arasında yer almaktadır. Bu analiz sayesinde bankalar aksiyon alması gereken alanları önceliklendirebilir.
+
 
 ---
 
@@ -185,9 +217,7 @@ Bu proje sonucunda aşağıdaki bulgular elde edilmiştir.
 * ROC Curve
 * Model karşılaştırmaları
 * İş odaklı analizler
-  <img width="532" height="504" alt="image" src="https://github.com/user-attachments/assets/554ac174-ef03-49e3-b98c-af4501af5bdf" />
-  <img width="2484" height="1584" alt="image" src="https://github.com/user-attachments/assets/ae82ca5f-84b4-47ea-864c-2e70e2f00da7" />
-  <img width="1784" height="495" alt="image" src="https://github.com/user-attachments/assets/ab1a8b74-3b8e-4443-ad02-9af9b3b975e1" />
+
 
 
 
