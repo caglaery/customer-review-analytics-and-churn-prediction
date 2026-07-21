@@ -8,6 +8,8 @@ Projenin amacı yalnızca yorumların olumlu veya olumsuz olduğunu belirlemek d
 
 Bu kapsamda iki farklı makine öğrenmesi problemi ele alınmıştır.
 
+Veriler anonimleştirilmiştir
+
 ### 3 Segmentli Müşteri Sınıflandırması
 
 * Sadık
